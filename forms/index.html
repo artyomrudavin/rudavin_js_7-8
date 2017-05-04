@@ -2,15 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Forms</title>
+  <title>Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 </head>
 <body>
-  
 
+  <form action="#" class="form">
+    <label class="name">
+      <p>Name:</p>
+      <input type="text" name="name">
+    </label>
+
+    <label class="surname">
+      <p>Surname:</p>
+      <input type="text" name="surname">
+    </label>
+
+    <label class="address">
+      <p>Address:</p>
+      <input type="text" name="address">
+    </label>
+
+    <button class="btn btn-primary btn-lg">Show help for all</button>
+
+    <span class="name-help">Please provide your Name</span>
+    <span class="surname-help">Please provide your Surname</span>
+    <span class="address-help">Please provide your Adress</span>
+    
+  </form>
   <script src="js/script.js"></script>
 </body>
 </html>

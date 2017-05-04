@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #FAFAFA;
+  margin: 100px 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+  padding: 30px;
+  width: 600px;
+  border: 2px solid #2F4F4F;
+  box-shadow: 0 0 15px #333;
+}
+
+.btn {
+  margin: auto;
+}
+
+p {
+  font-size: 22px;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  padding: 0 10px;
+  font-size: 18px;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+span {
+  display: none;
+  position: absolute;
+  background-color: #FFF;
+  margin: 5px;
+  width: 280px;
+  height: 50px;
+  border: 1px solid #228B22;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #cacaca;
+  text-align: center;
+  line-height: 50px;
+}
+
+.name-help {
+  top: 40px;
+  left: 340px;
+}
+
+.surname-help {
+  top: 140px;
+  left: 340px;
+}
+
+.address-help {
+  top: 240px;
+  left: 340px;
+}
+
+.show {
+  display: block;
+}

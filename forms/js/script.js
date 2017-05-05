@@ -1,6 +1,6 @@
 $(function() {
 
-  $('.name').hover(
+  $('.name input').hover(
     function() {
       $('.name-help').addClass('show');
     }, 
@@ -8,7 +8,7 @@ $(function() {
       $('.name-help').removeClass('show');
     });
 
-  $('.surname').hover(
+  $('.surname input').hover(
     function() {
       $('.surname-help').addClass('show');
     }, 
@@ -16,7 +16,7 @@ $(function() {
       $('.surname-help').removeClass('show');
     });
 
-  $('.address').hover(
+  $('.address input').hover(
     function() {
       $('.address-help').addClass('show');
     }, 
